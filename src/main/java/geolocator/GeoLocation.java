@@ -22,7 +22,7 @@ public class GeoLocation {
     public String toString() {
         return ReflectionToStringBuilder.toString(this, ToStringStyle.MULTI_LINE_STYLE);
     }
-    
+
     public String getAs() {
         return as;
     }
